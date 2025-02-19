@@ -1,0 +1,60 @@
+
+        body {
+            background: #E2E2B6;
+            font-family:monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+            margin: 0;
+            padding: 0;
+        }
+        header { background: #6EACDA;
+        margin: 0;
+        padding: 20px;
+        }
+
+        section {
+            background: #98c9ee;
+            color: gray;
+            padding: 50px;
+            display: flex;
+            flex-direction: row;
+        }
+        div {
+
+            background: #03346E;
+            padding: 50px;
+            width: 200px;
+            margin: auto;
+            border-radius: 10px;
+        }
+        ul {
+             color: rgb(215, 208, 208) ;
+             overflow: hidden;
+            margin:0 ;
+            padding: 0;
+            list-style-type: none;
+            opacity: 1;
+
+        }
+        li {
+            float: left;
+            margin: 10px 200px 0 0;
+            padding: 10px 30px; 
+        
+            
+        }
+         li a {
+            display: block;
+            color: white;
+            text-align: center;
+            margin:0;
+            padding: 10px 30px;
+            text-decoration: none;
+        
+         }
+         li a:hover {
+            background-color: #03346E;
+            margin:0;
+            padding: 10px 30px;
+            border-radius: 20px;
+          }
+
+
